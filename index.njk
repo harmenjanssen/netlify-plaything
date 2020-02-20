@@ -1,0 +1,11 @@
+<h1>Latest Posts</h1>
+
+{% set postslist = collections.posts %}
+
+<ol>
+{% for post in postslist | reverse %}
+  <li>
+    {{ post.data.title }}
+  </li>
+{% endfor %}
+</ol>
