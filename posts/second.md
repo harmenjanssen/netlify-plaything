@@ -1,5 +1,6 @@
 ---
 title: This is my second post.
+slug: el-posto-segundo
 description: This is a post on My Blog about agile frameworks.
 date: 2018-05-05
 tags:
