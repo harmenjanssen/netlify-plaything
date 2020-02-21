@@ -18,5 +18,8 @@ sections:
     value: Nog een tekst
   - type: text
     value: Hier komt een soort footer.
+  - direction: ltr
+    type: header
+    value: Dit is de euh... footer header?
 ---
 
