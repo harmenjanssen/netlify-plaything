@@ -13,6 +13,21 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    folder: "pages/"
+    create: true
+    slug: "slug"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        fields:
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options: ["header", "text"]
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
