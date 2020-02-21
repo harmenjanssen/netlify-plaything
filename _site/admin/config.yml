@@ -23,11 +23,25 @@ collections:
       - label: "Sections"
         name: "sections"
         widget: "list"
-        fields:
-          - label: "Type"
-            name: "type"
-            widget: "select"
-            options: ["header", "text"]
+        types:
+          - label: "Header"
+            name: "header"
+            widget: "object"
+            fields:
+              - label: "Value"
+                name: "value"
+                widget: "string"
+              - label: "Direction"
+                name: "direction"
+                widget: "select"
+                options: ["ltr", "rtl"]
+          - label: "Text"
+            name: "text"
+            widget: "object"
+            fields:
+              - label: "Value"
+                name: "value"
+                widget: "text"
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
