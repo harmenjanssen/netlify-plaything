@@ -1,0 +1,7 @@
+---
+layout: layout.njk
+---
+{% for item in sections %}
+    <!-- {{ "partials/" ~ item.type ~ ".njk" }} -->
+    {% include "partials/" ~ item.type ~ ".njk" %}
+{% endfor %}
