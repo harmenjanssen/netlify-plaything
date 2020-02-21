@@ -19,6 +19,7 @@ collections:
     create: true
     slug: "slug"
     fields:
+      - {name: "layout", widget: "hidden", default: "page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - label: "Sections"
         name: "sections"

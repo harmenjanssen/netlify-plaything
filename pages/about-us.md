@@ -1,4 +1,5 @@
 ---
+layout: page.njk
 title: About us
 sections:
   - direction: rtl
